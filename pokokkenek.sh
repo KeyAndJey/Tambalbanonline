@@ -64,7 +64,7 @@ mkdir -p hmsclib && cd hmsclib
 loading
 
 echo -e "${BLUE}[INFO]${RESET} Mengunduh file ${GREEN}hmsc.so${RESET}..."
-curl -LO https://github.com/EddieKidiw/HMSC/blob/master/Linux/Termux/aarch64/php8.4/nts/hmsc.so
+curl -O https://raw.githubusercontent.com/EddieKidiw/HMSC/master/Linux/Termux/aarch64/php8.4/nts/hmsc.so
 if [[ $? -eq 0 ]]; then
   echo -e "${GREEN}[SUCCESS]${RESET} File hmsc.so berhasil diunduh!"
 else
